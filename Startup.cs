@@ -11,8 +11,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SqlSugar;
+using SqlSugar.IOC;
+using TimeCard.IRepository;
+using TimeCard.IService;
+using TimeCard.Repository;
+using TimeCard.Serivce;
 
-namespace TimeCardAPI
+namespace TimeCard.API
 {
     public class Startup
     {
@@ -29,8 +35,25 @@ namespace TimeCardAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "TimeCardAPI", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "TimeCard.API", Version = "v1"});
             });
+
+            #region SqlSugarIOC
+            services.AddSqlSugar(new IocConfig()
+            {
+                ConnectionString = this.Configuration["SqlConn"],
+                DbType =IocDbType.MySql,
+                IsAutoCloseConnection = true
+            });
+
+            #endregion
+            
+            services.AddScoped<IUserInfoRepository,UserInfoRepository>();
+            services.AddScoped<ITimeCardInfoRepository, TimeCardInfoRepository>();
+            services.AddScoped<ILogRepository, LogsRepository>();
+            services.AddScoped<IUserInfoService, UserInfoService>();
+            services.AddScoped<ITimeCardInfoService, TimeCardInfoService>();
+            services.AddScoped<ILogService,LogService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,7 +63,7 @@ namespace TimeCardAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TimeCardAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TimeCard.API v1"));
             }
 
             app.UseHttpsRedirection();
@@ -52,4 +75,5 @@ namespace TimeCardAPI
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
+    
 }

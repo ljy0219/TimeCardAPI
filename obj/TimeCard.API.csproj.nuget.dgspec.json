@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.API/TimeCard.API.csproj": {}
+  },
+  "projects": {
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.API/TimeCard.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.API/TimeCard.API.csproj",
+        "projectName": "TimeCard.API",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.API/TimeCard.API.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj"
+              },
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj"
+              },
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj"
+              },
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/TimeCard.Repository.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/TimeCard.Repository.csproj"
+              },
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/TimeCard.Serivce.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/TimeCard.Serivce.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj",
+        "projectName": "TimeCard.IRepository",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj",
+        "projectName": "TimeCard.IService",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj",
+        "projectName": "TimeCard.Model",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/TimeCard.Model.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.2.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/TimeCard.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/TimeCard.Repository.csproj",
+        "projectName": "TimeCard.Repository",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/TimeCard.Repository.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/TimeCard.Serivce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/TimeCard.Serivce.csproj",
+        "projectName": "TimeCard.Serivce",
+        "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/TimeCard.Serivce.csproj",
+        "packagesPath": "/Users/junyun.liu/.nuget/packages/",
+        "outputPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.Serivce/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/junyun.liu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IRepository/TimeCard.IRepository.csproj"
+              },
+              "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj": {
+                "projectPath": "/Users/junyun.liu/RiderProjects/TimeCardAPI/TimeCard.IService/TimeCard.IService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/junyun.liu/.dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
