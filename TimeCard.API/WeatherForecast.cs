@@ -1,6 +1,6 @@
 using System;
 
-namespace TimeCardAPI
+namespace TimeCard.API
 {
     public class WeatherForecast
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace TimeCardAPI.Controllers
+namespace TimeCard.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

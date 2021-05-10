@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyName>TimeCard.Repository</AssemblyName>
+        <RootNamespace>TimeCard.Repository</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TimeCard.IRepository\TimeCard.IRepository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SqlSugar.IOC" Version="1.5.0" />
+    </ItemGroup>
+
+</Project>

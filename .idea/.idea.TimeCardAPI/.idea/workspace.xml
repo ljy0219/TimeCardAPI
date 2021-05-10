@@ -4,29 +4,57 @@
     <projectFile>TimeCardAPI/TimeCardAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894c4909-1dc0-4c48-baea-49e5307540a2" name="Default Changelist" comment="gir status">
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/TimeCardAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/TimeCardAPI.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/TimeCardAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/TimeCardAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/TimeCardAPI.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/Debug/net5.0/TimeCardAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/TimeCardAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/TimeCardAPI.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/TimeCardAPI.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeCardAPI/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="894c4909-1dc0-4c48-baea-49e5307540a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/Controllers/UserInfoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/TimeCard.API.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/IBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/IBaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/ILogRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/ITimeCardInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/IUserInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IRepository/TimeCard.IRepository.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/IBaseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/ILogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/ITimeCardInfoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/IUserInfoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.IService/TimeCard.IService.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/BaseID.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/Logs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/TimeCard.Model.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/TimeCards.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Model/UserInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/BaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/LogsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/TimeCard.Repository.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/TimeCardInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Repository/UserInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/BaseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/LogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/TimeCard.Serivce.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/TimeCardInfoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.Serivce/UserInfoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TimeCardAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TimeCardAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TimeCardAPI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/TimeCardAPI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimeCardAPI/appsettings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +62,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TimeCardAPI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8CF1793C-2E2A-4AB2-BC57-01A450950AB7/24/640eef55/SimpleClient`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.IRepository/IBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.IService/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.Repository/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.Serivce/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.Model/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TimeCard.IRepository/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/TimeCardAPI/Startup.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Model/Class1.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Model/UserInfo.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Model/BaseID.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/Class1.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/IBase.cs" />
+      <option value="$PROJECT_DIR$/Repository/Class1.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Repository/TimeCard.Repository.csproj" />
+      <option value="$PROJECT_DIR$/TimeCard.Model/TimeCards.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Model/Logs.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IService/Class1.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Serivce/Class1.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/IBaseRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IService/IBaseService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Repository/BaseRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/IBaseUserInfo.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/ITimeCardInfo.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/ILogRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/IUserInfoRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Repository/UserInfoRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IRepository/ITimeCardInfoRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Repository/TimeCardInfoRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Repository/LogsRepository.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IService/IUserInfoService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IService/ITimeCardInfoService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.IService/ILogService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Serivce/BaseService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Serivce/UserInfoService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Serivce/LogService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.Serivce/TimeCardInfoService.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.API/Startup.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.API/Controllers/APIController.cs" />
+      <option value="$PROJECT_DIR$/TimeCard.API/appsettings.json" />
+      <option value="$PROJECT_DIR$/TimeCard.API/Controllers/UserInfoController.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1sIHGJUQDnScXYwMiTFtWdmqFCM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34973046" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,7 +141,7 @@
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TimeCardAPI">
     <configuration name="TimeCardAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TimeCardAPI/TimeCardAPI.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TimeCard.API/TimeCard.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="TimeCardAPI" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -66,7 +156,7 @@
       </method>
     </configuration>
     <configuration name="TimeCardAPI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TimeCardAPI/TimeCardAPI.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TimeCard.API/TimeCard.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -89,7 +179,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620553088722</updated>
-      <workItem from="1620553106685" duration="1615000" />
+      <workItem from="1620553106685" duration="2296000" />
+      <workItem from="1620610572411" duration="19410000" />
     </task>
     <task id="LOCAL-00001" summary="gir status">
       <created>1620553213263</created>
@@ -104,7 +195,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,8 +207,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="gir status" />
     <option name="LAST_COMMIT_MESSAGE" value="gir status" />
