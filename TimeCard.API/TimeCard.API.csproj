@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
@@ -15,6 +16,11 @@
       <ProjectReference Include="..\TimeCard.Model\TimeCard.Model.csproj" />
       <ProjectReference Include="..\TimeCard.Repository\TimeCard.Repository.csproj" />
       <ProjectReference Include="..\TimeCard.Serivce\TimeCard.Serivce.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Utilities\CustomAutoMapperProfile.cs" />
+      <Compile Remove="Utilities\_CustomAutoMapperProfile.cs" />
     </ItemGroup>
 
 </Project>

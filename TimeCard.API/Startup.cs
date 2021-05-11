@@ -1,22 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using SqlSugar;
 using SqlSugar.IOC;
 using TimeCard.IRepository;
 using TimeCard.IService;
 using TimeCard.Repository;
 using TimeCard.Serivce;
+using TimeCard.API.Utilities._AutoMapper;
 
 namespace TimeCard.API
 {
@@ -54,6 +47,8 @@ namespace TimeCard.API
             services.AddScoped<IUserInfoService, UserInfoService>();
             services.AddScoped<ITimeCardInfoService, TimeCardInfoService>();
             services.AddScoped<ILogService,LogService>();
+
+            services.AddAutoMapper(typeof(CustomAutoMapperProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,7 +66,7 @@ namespace TimeCard.API
             app.UseRouting();
 
             app.UseAuthorization();
-
+            //app.UseAuthentication();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
