@@ -17,11 +17,11 @@ namespace TimeCard.Repository
         {
             base.Context = DbScoped.Sugar;
             base.Context.DbMaintenance.CreateDatabase();
-            base.Context.CodeFirst.InitTables(
-                typeof(UserInfo),
-                typeof(TimeCards),
-                typeof(Logs)
-                );
+            //base.Context.CodeFirst.InitTables(
+            //    typeof(UserInfo),
+            //    typeof(TimeCards),
+            //    typeof(Logs)
+            //    );
         }
         public async Task<bool> CreateAsync(TEntity entity)
         {
@@ -41,6 +41,11 @@ namespace TimeCard.Repository
         public virtual async Task<TEntity> FindAsync(int id)
         {
             return await base.GetByIdAsync(id);
+        }
+
+        public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func)
+        {
+            return await base.GetSingleAsync(func);
         }
 
         public virtual async Task<List<TEntity>> QueryAsync()

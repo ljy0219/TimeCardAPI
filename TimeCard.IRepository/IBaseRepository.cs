@@ -13,6 +13,8 @@ namespace TimeCard.IRepository
         Task<bool> DeleteAsync(int id);
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int id);
+
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func);
         /// <summary>
         /// Conditional Search    
         /// </summary>

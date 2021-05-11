@@ -12,10 +12,8 @@ namespace TimeCard.IService
         Task<bool> DeleteAsync(int id);
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int id);
-        /// <summary>
-        /// Conditional Search    
-        /// </summary>
-        /// <returns></returns>
+        
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func);
         Task<List<TEntity>> QueryAsync();
 
         Task<List<TEntity>> QueryAsync(Expression<Func<TEntity,bool>> func);
