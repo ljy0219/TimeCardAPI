@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="894c4909-1dc0-4c48-baea-49e5307540a2" name="Default Changelist" comment="20210510">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TimeCardAPI/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TimeCard.API/Controllers/LogsController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TimeCard.API/Controllers/TimeCardsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeCard.API/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TimeCard.API/Utilities/MD5.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TimeCardAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TimeCardAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TimeCard.API/Controllers/UserInfoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TimeCard.API/Controllers/UserInfoController.cs" afterDir="false" />
@@ -177,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620553088722</updated>
       <workItem from="1620553106685" duration="2296000" />
-      <workItem from="1620610572411" duration="33544000" />
+      <workItem from="1620610572411" duration="33868000" />
     </task>
     <task id="LOCAL-00001" summary="gir status">
       <created>1620553213263</created>
